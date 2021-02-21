@@ -31,7 +31,7 @@ public class ContactController {
    ContactController(ContactRepository contactRepository) {
        this.repository = contactRepository;
    }
-   // métodos do CRUD aqui
+   //CRUD
    
    @GetMapping
     public List findAll(){
